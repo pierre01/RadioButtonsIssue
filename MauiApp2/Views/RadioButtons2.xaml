@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MauiApp2.Views.RadioButtons2"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <VerticalStackLayout>
+
+        <HorizontalStackLayout>
+            <RadioButton
+                Padding="8"
+                BackgroundColor="Green"
+                CheckedChanged="RadioButton_CheckedChanged"
+                Content="Radio Button 1 Group 1 "
+                GroupName="G1"
+                IsChecked="True" />
+            <!--  IsChecked is not working  -->
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout>
+            <RadioButton
+                BackgroundColor="Blue"
+                CheckedChanged="RadioButton_CheckedChanged"
+                Content="Radio Button 2 Group 2 "
+                GroupName="G2" />
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout>
+            <RadioButton
+                BackgroundColor="Green"
+                CheckedChanged="RadioButton_CheckedChanged"
+                Content="Radio Button 3 Group 1 "
+                GroupName="G1" />
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout>
+            <RadioButton
+                BackgroundColor="Blue"
+                CheckedChanged="RadioButton_CheckedChanged"
+                Content="Radio Button 4 Group 2 "
+                GroupName="G2"
+                IsChecked="True" />
+        </HorizontalStackLayout>
+
+    </VerticalStackLayout>
+</ContentPage>
