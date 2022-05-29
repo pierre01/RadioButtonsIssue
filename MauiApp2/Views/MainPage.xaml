@@ -4,37 +4,35 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
 
-    <ScrollView>
-        <VerticalStackLayout Padding="30">
+    <VerticalStackLayout Padding="30">
 
-            <RadioButton
-                Padding="8"
-                BackgroundColor="Green"
-                CheckedChanged="RadioButton_CheckedChanged"
-                Content="Radio Button 1 Group 1 "
-                GroupName="G1"
-                IsChecked="True" />            
-            <!--  IsChecked is not working  -->
+        <RadioButton
+            Padding="8"
+            BackgroundColor="Green"
+            CheckedChanged="RadioButton_CheckedChanged"
+            Content="Radio Button 1 Group 1 "
+            GroupName="G1"
+            IsChecked="True" />
+        <!--  IsChecked is not working  -->
 
-            <RadioButton
-                BackgroundColor="Blue"
-                CheckedChanged="RadioButton_CheckedChanged"
-                Content="Radio Button 2 Group 2 "
-                GroupName="G2" />
+        <RadioButton
+            BackgroundColor="Blue"
+            CheckedChanged="RadioButton_CheckedChanged"
+            Content="Radio Button 2 Group 2 "
+            GroupName="G2" />
 
-            <RadioButton
-                BackgroundColor="Green"
-                CheckedChanged="RadioButton_CheckedChanged"
-                Content="Radio Button 3 Group 1 "
-                GroupName="G1" />
+        <RadioButton
+            BackgroundColor="Green"
+            CheckedChanged="RadioButton_CheckedChanged"
+            Content="Radio Button 3 Group 1 "
+            GroupName="G1" />
 
-            <RadioButton
-                BackgroundColor="Blue"
-                CheckedChanged="RadioButton_CheckedChanged"
-                Content="Radio Button 4 Group 2 "
-                GroupName="G2"
-                IsChecked="True" />
+        <RadioButton
+            BackgroundColor="Blue"
+            CheckedChanged="RadioButton_CheckedChanged"
+            Content="Radio Button 4 Group 2 "
+            GroupName="G2"
+            IsChecked="True" />
 
-        </VerticalStackLayout>
-    </ScrollView>
+    </VerticalStackLayout>
 </ContentPage>
